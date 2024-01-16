@@ -169,7 +169,137 @@ font-weight: 800;
 line-height: normal;
 cursor: pointer;
 }
+.des{
+    text-align: center;
+}
+.picone{
+    width: 573px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.pictwo{
+    width: 573px;
+height: 300px;
+display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+    margin-top: 2%;
+    gap: 20px;
+}
+.picthree{
+    width: 573px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
 
+}
+.why{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.why> p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+
+}
+.back{
+    background-color: bisque;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+padding-top: 10%;
+border-radius: 16px;
+}
+.back>P{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.back>h2{
+    text-align: center;
+    font-size: 32px;
+}
+.aaa{
+    background-color: burlywood;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+padding-top: 10%;
+border-radius: 16px;
+
+
+}
+.bbb{
+    background-color: wheat;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+padding-top: 10%;
+border-radius: 16px;
+margin-top: 20px;
+ 
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+  
+
+}
+.bbb>h2{
+    text-align: center;
+    font-size: 32px;
+
+}
+.bbb>p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.aaa>p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.aaa>h2{
+    text-align: center;
+    font-size: 32px;
+}
+.big{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 2%;
+}
 
 @media only screen and (max-width: 600px) {
     body{
@@ -241,9 +371,59 @@ margin-left: 20%;
     width: 335px;
     margin-left: 20%;
   }
+  .des{
+    font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
 
+
+
+  }
+  .man{
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+  }
+.woman{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.picone{
+    display: inline-block;
+    width: 235px;
+height: 176px;
+
+}
+.pictwo{
+    display: inline-block;
+    width: 235px;
+height: 176px;
+display: block;
+
+}
+.picthree{
+    
+   max-width: 335px;
+height: 176px;
+display: inline-block;
+margin-top: 20%;
+display: block;
 
     }
+}
     
   
   
